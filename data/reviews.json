@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Amina Hassan",
+    "role": "Graduate",
+    "rating": 4,
+    "comment": "The builder feels like a real online system and the PDF is clean.",
+    "date": "2026-05-01"
+  },
+  {
+    "id": 2,
+    "name": "Joseph Mushi",
+    "role": "HR Officer",
+    "rating": 5,
+    "comment": "Templates are professional and easy to compare.",
+    "date": "2026-05-02"
+  },
+  {
+    "id": 3,
+    "name": "Grace Peter",
+    "role": "Student",
+    "rating": 5,
+    "comment": "I like the live preview and progress dashboard.",
+    "date": "2026-05-03"
+  },
+  {
+    "id": 4,
+    "name": "Baraka Ally",
+    "role": "Software Developer",
+    "rating": 5,
+    "comment": "Good for graduates who need quick CVs.",
+    "date": "2026-05-04"
+  },
+  {
+    "id": 5,
+    "name": "Neema John",
+    "role": "Accountant",
+    "rating": 5,
+    "comment": "The premium template design looks very smart.",
+    "date": "2026-05-05"
+  },
+  {
+    "id": 6,
+    "name": "Emmanuel Kato",
+    "role": "Teacher",
+    "rating": 4,
+    "comment": "The question flow helped me complete my CV faster.",
+    "date": "2026-05-06"
+  },
+  {
+    "id": 7,
+    "name": "Fatma Said",
+    "role": "Nurse",
+    "rating": 5,
+    "comment": "The rating panel makes the website feel active.",
+    "date": "2026-05-07"
+  },
+  {
+    "id": 8,
+    "name": "Daniel Kimaro",
+    "role": "Project Officer",
+    "rating": 5,
+    "comment": "Exporting PDF works well and only prints the CV.",
+    "date": "2026-05-08"
+  },
+  {
+    "id": 9,
+    "name": "Lilian Charles",
+    "role": "Designer",
+    "rating": 5,
+    "comment": "The template preview popup is very useful.",
+    "date": "2026-05-09"
+  },
+  {
+    "id": 10,
+    "name": "Moses Nyerere",
+    "role": "Employer",
+    "rating": 5,
+    "comment": "The multilingual labels are helpful for international users.",
+    "date": "2026-05-10"
+  },
+  {
+    "id": 11,
+    "name": "Rehema Paulo",
+    "role": "Graduate",
+    "rating": 4,
+    "comment": "The builder feels like a real online system and the PDF is clean.",
+    "date": "2026-05-11"
+  },
+  {
+    "id": 12,
+    "name": "Victor James",
+    "role": "HR Officer",
+    "rating": 5,
+    "comment": "Templates are professional and easy to compare.",
+    "date": "2026-05-12"
+  },
+  {
+    "id": 13,
+    "name": "Zainab Omar",
+    "role": "Student",
+    "rating": 5,
+    "comment": "I like the live preview and progress dashboard.",
+    "date": "2026-05-13"
+  },
+  {
+    "id": 14,
+    "name": "Kelvin Andrew",
+    "role": "Software Developer",
+    "rating": 5,
+    "comment": "Good for graduates who need quick CVs.",
+    "date": "2026-05-14"
+  },
+  {
+    "id": 15,
+    "name": "Irene Simon",
+    "role": "Accountant",
+    "rating": 5,
+    "comment": "The premium template design looks very smart.",
+    "date": "2026-05-15"
+  },
+  {
+    "id": 16,
+    "name": "Mariam Rashid",
+    "role": "Teacher",
+    "rating": 4,
+    "comment": "The question flow helped me complete my CV faster.",
+    "date": "2026-05-16"
+  },
+  {
+    "id": 17,
+    "name": "Brian Alex",
+    "role": "Nurse",
+    "rating": 5,
+    "comment": "The rating panel makes the website feel active.",
+    "date": "2026-05-17"
+  },
+  {
+    "id": 18,
+    "name": "Sophia Martin",
+    "role": "Project Officer",
+    "rating": 5,
+    "comment": "Exporting PDF works well and only prints the CV.",
+    "date": "2026-05-18"
+  },
+  {
+    "id": 19,
+    "name": "Raj Patel",
+    "role": "Designer",
+    "rating": 5,
+    "comment": "The template preview popup is very useful.",
+    "date": "2026-05-19"
+  },
+  {
+    "id": 20,
+    "name": "Chen Wei",
+    "role": "Employer",
+    "rating": 5,
+    "comment": "The multilingual labels are helpful for international users.",
+    "date": "2026-05-20"
+  },
+  {
+    "id": 21,
+    "name": "Yuki Tanaka",
+    "role": "Graduate",
+    "rating": 4,
+    "comment": "The builder feels like a real online system and the PDF is clean.",
+    "date": "2026-05-01"
+  },
+  {
+    "id": 22,
+    "name": "Min-Jun Park",
+    "role": "HR Officer",
+    "rating": 5,
+    "comment": "Templates are professional and easy to compare.",
+    "date": "2026-05-02"
+  },
+  {
+    "id": 23,
+    "name": "Fatima Al-Zahra",
+    "role": "Student",
+    "rating": 5,
+    "comment": "I like the live preview and progress dashboard.",
+    "date": "2026-05-03"
+  },
+  {
+    "id": 24,
+    "name": "Pierre Laurent",
+    "role": "Software Developer",
+    "rating": 5,
+    "comment": "Good for graduates who need quick CVs.",
+    "date": "2026-05-04"
+  },
+  {
+    "id": 25,
+    "name": "Anita Sharma",
+    "role": "Accountant",
+    "rating": 5,
+    "comment": "The premium template design looks very smart.",
+    "date": "2026-05-05"
+  }
+]

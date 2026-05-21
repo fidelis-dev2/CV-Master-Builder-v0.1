@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Master Builder 2026</title>
+  <link rel="stylesheet" href="assets/css/style.css?v=20260521-print-cv-only-colors" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="topbar">
+    <button id="menuBtn" class="icon-btn"><i class="fa fa-bars"></i></button>
+    <div class="brand"><span class="brand-logo"><i class="fa fa-file-lines"></i></span><div><b>CV Master</b><small>Professional CV Builder</small></div></div>
+    <div class="nav-actions">
+      <select id="languageSelect" class="lang-select" title="CV language"></select>
+      <button class="ghost" data-scroll="templates"><i class="fa fa-layer-group"></i> Templates</button>
+      <button class="ghost" id="demoBtn"><i class="fa fa-user-check"></i> Demo CV</button>
+      <button class="ghost install-btn" id="installAppBtn" style="display:none"><i class="fa fa-mobile-screen-button"></i> Install App</button>
+      <button class="primary" id="downloadPdfTop"><i class="fa fa-download"></i> PDF</button>
+    </div>
+  </nav>
+  <aside class="sidebar" id="sidebar">
+    <div class="side-title">Workspace</div>
+    <a data-scroll="dashboard"><i class="fa fa-chart-pie"></i> Dashboard</a>
+    <a data-scroll="templates"><i class="fa fa-table-cells-large"></i> 50 CV Templates</a>
+    <a data-scroll="builder"><i class="fa fa-wand-magic-sparkles"></i> CV Questions</a>
+    <a data-scroll="preview"><i class="fa fa-eye"></i> Live Preview</a>
+    <a data-scroll="internet"><i class="fa fa-globe"></i> Internet Template</a>
+    <a data-scroll="rating"><i class="fa fa-star"></i> Rate System</a>
+    <hr>
+    <button class="side-btn" id="saveBtn"><i class="fa fa-floppy-disk"></i> Save Draft</button>
+    <button class="side-btn" id="printBtn"><i class="fa fa-print"></i> Print CV Only</button>
+    <button class="side-btn" id="resetBtn"><i class="fa fa-rotate-left"></i> Reset</button>
+    <button class="side-btn" id="exportJson"><i class="fa fa-file-export"></i> Export JSON</button>
+    <label class="side-btn file-like"><i class="fa fa-file-import"></i> Import JSON<input type="file" id="importJson" accept="application/json"></label>
+  </aside>
+  <main class="app-shell">
+    <section class="hero" id="home"><div class="hero-content"><span class="pill">No account required</span><h1>Create a professional CV, preview templates and download only the CV as PDF.</h1><p>Choose from 50 structures, answer smart questions, upload passport photo, change language and watch the CV grow live.</p><div class="hero-buttons"><button class="primary big" data-scroll="templates">Choose Template</button><button class="secondary big" data-scroll="builder">Start Questions</button></div></div><div class="hero-card"><div class="mini-cv"><div class="avatar"></div><div class="lines"><b></b><span></span><span></span><span></span></div></div><canvas id="heroChart" height="150"></canvas></div></section>
+    <section class="dashboard" id="dashboard"><div class="section-head"><div><span class="eyebrow">Dashboard</span><h2>CV completion analysis</h2></div><button class="secondary" id="smartSuggest"><i class="fa fa-lightbulb"></i> Smart suggestions</button></div><div class="kpis"><div class="kpi"><i class="fa fa-percent"></i><div><b id="progressText">0%</b><span>Completed</span></div></div><div class="kpi"><i class="fa fa-layer-group"></i><div><b id="templateName">None</b><span>Template</span></div></div><div class="kpi"><i class="fa fa-language"></i><div><b id="languageName">English</b><span>CV Language</span></div></div><div class="kpi"><i class="fa fa-comments"></i><div><b id="reviewCount">25</b><span>Reviews</span></div></div></div><div class="graph-grid"><div class="graph-card"><h3>Completion by section</h3><canvas id="progressChart"></canvas></div><div class="graph-card"><h3>CV strength</h3><canvas id="strengthChart"></canvas></div></div></section>
+    <section id="templates" class="panel"><div class="section-head"><div><span class="eyebrow">Step 1</span><h2>Select and preview CV template</h2></div><input id="templateSearch" class="search" placeholder="Search 50 templates e.g. IT, Finance, Health"></div><div class="template-note"><i class="fa fa-info-circle"></i> Click any template to open full preview. Premium templates ask for password once and then open.</div><div class="templates-grid" id="templatesGrid"></div></section>
+    <section id="builder" class="builder-grid"><div class="form-panel"><div class="section-head"><div><span class="eyebrow">Step 2</span><h2>Answer CV questions</h2></div><div class="stepper"><button id="prevStep">Prev</button><span id="stepLabel">Personal</span><button id="nextStep">Next</button></div></div><div id="formSteps"></div></div><div class="helper-panel"><h3>Live actions</h3><button class="primary full" id="downloadPdf"><i class="fa fa-file-pdf"></i> Download PDF CV</button><button class="secondary full" id="viewFull"><i class="fa fa-expand"></i> View Full CV</button><button class="secondary full" id="saveDraft"><i class="fa fa-save"></i> Save Draft</button><div class="upload-card"><h4>Passport photo preview</h4><img id="photoPreview" alt="Passport preview"><p>Upload JPG/PNG. You can change it anytime.</p></div></div></section>
+    <section id="preview" class="preview-layout"><div class="section-head"><div><span class="eyebrow">Step 3</span><h2>Live CV preview</h2></div><button class="secondary" id="printBtn2"><i class="fa fa-print"></i> Print CV Only</button></div><div id="cvPreview" class="cv-page"></div></section>
+    <section id="internet" class="panel"><div class="section-head"><div><span class="eyebrow">Optional</span><h2>Use template idea from internet</h2></div><a class="secondary link-btn" target="_blank" href="https://www.google.com/search?q=professional+cv+template+html+css">Search templates online</a></div><div class="internet-grid"><div><label>Template name</label><input id="customTemplateName" placeholder="e.g. My Internet Template"><label>Career</label><input id="customTemplateCareer" placeholder="e.g. Engineering"><label>Accent color</label><input id="customAccent" type="color" value="#111827"><label>Layout structure</label><select id="customLayout"><option>classic</option><option>modern</option><option>side</option><option>timeline</option><option>creative</option><option>dark</option><option>minimal</option><option>portfolio</option></select><button class="primary" id="addCustomTemplate">Add Custom Template</button></div><div><label>Notes / copied idea from internet</label><textarea id="customNotes" placeholder="Paste layout notes or HTML/CSS idea here. The website will create a usable custom template card."></textarea></div></div></section>
+    <section id="rating" class="panel rating-panel"><div class="section-head"><div><span class="eyebrow">Feedback</span><h2>Rate this CV system</h2></div></div><div class="rating-box"><input id="raterName" placeholder="Your name"><select id="raterRole"><option>Student</option><option>Graduate</option><option>Professional</option><option>Employer</option></select><div id="starInput" class="stars-input"></div><textarea id="raterComment" placeholder="Write your comment"></textarea><button class="primary" id="submitRating">Submit Rating</button></div></section>
+  </main>
+  <aside class="reviews-right"><div class="reviews-head"><b><i class="fa fa-comments"></i> Live Reviews</b><span id="liveStars">★★★★★</span></div><div id="reviewsTicker"></div></aside>
+  <div id="modal" class="modal"><div class="modal-content"><button id="closeModal" class="close">×</button><div id="modalBody"></div></div></div>
+  <script src="assets/js/app.js?v=20260521-print-cv-only-colors"></script>
+</body>
+</html>

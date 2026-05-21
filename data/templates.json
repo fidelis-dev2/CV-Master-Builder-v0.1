@@ -1,0 +1,502 @@
+[
+  {
+    "id": "classic",
+    "name": "Classic Professional",
+    "career": "General / Administration",
+    "layout": "classic",
+    "accent": "#0f172a",
+    "premium": false,
+    "desc": "Classic Professional structure for General / Administration with a unique layout, spacing and section style.",
+    "number": 1
+  },
+  {
+    "id": "modern",
+    "name": "Modern Blue",
+    "career": "General / Corporate",
+    "layout": "modern",
+    "accent": "#2563eb",
+    "premium": false,
+    "desc": "Modern Blue structure for General / Corporate with a unique layout, spacing and section style.",
+    "number": 2
+  },
+  {
+    "id": "executive-gold",
+    "name": "Executive Gold",
+    "career": "Management / Director",
+    "layout": "executive",
+    "accent": "#b8860b",
+    "premium": true,
+    "desc": "Executive Gold structure for Management / Director with a unique layout, spacing and section style.",
+    "number": 3
+  },
+  {
+    "id": "tech-grid",
+    "name": "Tech Grid",
+    "career": "Software / IT / Data",
+    "layout": "tech",
+    "accent": "#2563eb",
+    "premium": false,
+    "desc": "Tech Grid structure for Software / IT / Data with a unique layout, spacing and section style.",
+    "number": 4
+  },
+  {
+    "id": "cyber-dark",
+    "name": "Cyber Security Dark",
+    "career": "Cybersecurity / Network",
+    "layout": "dark",
+    "accent": "#00d4ff",
+    "premium": true,
+    "desc": "Cyber Security Dark structure for Cybersecurity / Network with a unique layout, spacing and section style.",
+    "number": 5
+  },
+  {
+    "id": "data-lab",
+    "name": "Data Analyst Lab",
+    "career": "Data / Analytics / BI",
+    "layout": "timeline",
+    "accent": "#7c3aed",
+    "premium": false,
+    "desc": "Data Analyst Lab structure for Data / Analytics / BI with a unique layout, spacing and section style.",
+    "number": 6
+  },
+  {
+    "id": "finance-clean",
+    "name": "Finance Clean",
+    "career": "Accounting / Banking / Audit",
+    "layout": "finance",
+    "accent": "#0e7490",
+    "premium": true,
+    "desc": "Finance Clean structure for Accounting / Banking / Audit with a unique layout, spacing and section style.",
+    "number": 7
+  },
+  {
+    "id": "banker-classic",
+    "name": "Banking Classic",
+    "career": "Banking / Credit / Risk",
+    "layout": "classic",
+    "accent": "#155e75",
+    "premium": false,
+    "desc": "Banking Classic structure for Banking / Credit / Risk with a unique layout, spacing and section style.",
+    "number": 8
+  },
+  {
+    "id": "audit-pro",
+    "name": "Audit Professional",
+    "career": "Audit / Compliance",
+    "layout": "side",
+    "accent": "#334155",
+    "premium": true,
+    "desc": "Audit Professional structure for Audit / Compliance with a unique layout, spacing and section style.",
+    "number": 9
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare Clean",
+    "career": "Health / Nursing / Clinical",
+    "layout": "health",
+    "accent": "#059669",
+    "premium": false,
+    "desc": "Healthcare Clean structure for Health / Nursing / Clinical with a unique layout, spacing and section style.",
+    "number": 10
+  },
+  {
+    "id": "doctor-premium",
+    "name": "Doctor Premium",
+    "career": "Medicine / Doctor",
+    "layout": "premium-side",
+    "accent": "#047857",
+    "premium": true,
+    "desc": "Doctor Premium structure for Medicine / Doctor with a unique layout, spacing and section style.",
+    "number": 11
+  },
+  {
+    "id": "pharmacy",
+    "name": "Pharmacy Green",
+    "career": "Pharmacy / Laboratory",
+    "layout": "side",
+    "accent": "#16a34a",
+    "premium": false,
+    "desc": "Pharmacy Green structure for Pharmacy / Laboratory with a unique layout, spacing and section style.",
+    "number": 12
+  },
+  {
+    "id": "academic",
+    "name": "Academic Research",
+    "career": "Academic / Research / Teaching",
+    "layout": "academic",
+    "accent": "#7c3aed",
+    "premium": false,
+    "desc": "Academic Research structure for Academic / Research / Teaching with a unique layout, spacing and section style.",
+    "number": 13
+  },
+  {
+    "id": "teacher",
+    "name": "Teacher Friendly",
+    "career": "Education / Training",
+    "layout": "classic",
+    "accent": "#ea580c",
+    "premium": false,
+    "desc": "Teacher Friendly structure for Education / Training with a unique layout, spacing and section style.",
+    "number": 14
+  },
+  {
+    "id": "researcher",
+    "name": "Research Scholar",
+    "career": "Research / Publications",
+    "layout": "timeline",
+    "accent": "#6d28d9",
+    "premium": true,
+    "desc": "Research Scholar structure for Research / Publications with a unique layout, spacing and section style.",
+    "number": 15
+  },
+  {
+    "id": "ngo-impact",
+    "name": "NGO Impact",
+    "career": "NGO / Project / Community",
+    "layout": "impact",
+    "accent": "#ea580c",
+    "premium": false,
+    "desc": "NGO Impact structure for NGO / Project / Community with a unique layout, spacing and section style.",
+    "number": 16
+  },
+  {
+    "id": "project-manager",
+    "name": "Project Manager",
+    "career": "Project Management",
+    "layout": "timeline",
+    "accent": "#0f766e",
+    "premium": true,
+    "desc": "Project Manager structure for Project Management with a unique layout, spacing and section style.",
+    "number": 17
+  },
+  {
+    "id": "engineer",
+    "name": "Engineering Blueprint",
+    "career": "Engineering / Construction",
+    "layout": "blueprint",
+    "accent": "#1d4ed8",
+    "premium": false,
+    "desc": "Engineering Blueprint structure for Engineering / Construction with a unique layout, spacing and section style.",
+    "number": 18
+  },
+  {
+    "id": "architect",
+    "name": "Architect Portfolio",
+    "career": "Architecture / Design",
+    "layout": "portfolio",
+    "accent": "#475569",
+    "premium": true,
+    "desc": "Architect Portfolio structure for Architecture / Design with a unique layout, spacing and section style.",
+    "number": 19
+  },
+  {
+    "id": "creative",
+    "name": "Creative Portfolio",
+    "career": "Design / Media / Marketing",
+    "layout": "creative",
+    "accent": "#e11d48",
+    "premium": true,
+    "desc": "Creative Portfolio structure for Design / Media / Marketing with a unique layout, spacing and section style.",
+    "number": 20
+  },
+  {
+    "id": "minimal",
+    "name": "Minimal Swiss",
+    "career": "All Careers",
+    "layout": "minimal",
+    "accent": "#111827",
+    "premium": false,
+    "desc": "Minimal Swiss structure for All Careers with a unique layout, spacing and section style.",
+    "number": 21
+  },
+  {
+    "id": "photo-left",
+    "name": "Photo Left",
+    "career": "Customer Service / Front Office",
+    "layout": "photo-left",
+    "accent": "#0ea5e9",
+    "premium": false,
+    "desc": "Photo Left structure for Customer Service / Front Office with a unique layout, spacing and section style.",
+    "number": 22
+  },
+  {
+    "id": "legal",
+    "name": "Legal Formal",
+    "career": "Law / Legal Officer",
+    "layout": "legal",
+    "accent": "#4b5563",
+    "premium": true,
+    "desc": "Legal Formal structure for Law / Legal Officer with a unique layout, spacing and section style.",
+    "number": 23
+  },
+  {
+    "id": "hr",
+    "name": "Human Resource",
+    "career": "HR / Recruitment",
+    "layout": "side",
+    "accent": "#db2777",
+    "premium": false,
+    "desc": "Human Resource structure for HR / Recruitment with a unique layout, spacing and section style.",
+    "number": 24
+  },
+  {
+    "id": "sales",
+    "name": "Sales Growth",
+    "career": "Sales / Marketing",
+    "layout": "impact",
+    "accent": "#f97316",
+    "premium": false,
+    "desc": "Sales Growth structure for Sales / Marketing with a unique layout, spacing and section style.",
+    "number": 25
+  },
+  {
+    "id": "hospitality",
+    "name": "Hospitality Service",
+    "career": "Hotel / Tourism",
+    "layout": "photo-left",
+    "accent": "#ca8a04",
+    "premium": false,
+    "desc": "Hospitality Service structure for Hotel / Tourism with a unique layout, spacing and section style.",
+    "number": 26
+  },
+  {
+    "id": "driver",
+    "name": "Driver Operator",
+    "career": "Driver / Logistics",
+    "layout": "classic",
+    "accent": "#1f2937",
+    "premium": false,
+    "desc": "Driver Operator structure for Driver / Logistics with a unique layout, spacing and section style.",
+    "number": 27
+  },
+  {
+    "id": "logistics",
+    "name": "Logistics Planner",
+    "career": "Supply Chain / Procurement",
+    "layout": "timeline",
+    "accent": "#0369a1",
+    "premium": false,
+    "desc": "Logistics Planner structure for Supply Chain / Procurement with a unique layout, spacing and section style.",
+    "number": 28
+  },
+  {
+    "id": "procurement",
+    "name": "Procurement Pro",
+    "career": "Procurement / Stores",
+    "layout": "finance",
+    "accent": "#0f766e",
+    "premium": true,
+    "desc": "Procurement Pro structure for Procurement / Stores with a unique layout, spacing and section style.",
+    "number": 29
+  },
+  {
+    "id": "admin",
+    "name": "Admin Officer",
+    "career": "Office Administration",
+    "layout": "classic",
+    "accent": "#0f172a",
+    "premium": false,
+    "desc": "Admin Officer structure for Office Administration with a unique layout, spacing and section style.",
+    "number": 30
+  },
+  {
+    "id": "government",
+    "name": "Government Formal",
+    "career": "Public Sector",
+    "layout": "legal",
+    "accent": "#14532d",
+    "premium": false,
+    "desc": "Government Formal structure for Public Sector with a unique layout, spacing and section style.",
+    "number": 31
+  },
+  {
+    "id": "military",
+    "name": "Disciplined Service",
+    "career": "Military / Security",
+    "layout": "dark",
+    "accent": "#22c55e",
+    "premium": true,
+    "desc": "Disciplined Service structure for Military / Security with a unique layout, spacing and section style.",
+    "number": 32
+  },
+  {
+    "id": "startup",
+    "name": "Startup Founder",
+    "career": "Entrepreneur / Startup",
+    "layout": "creative",
+    "accent": "#f59e0b",
+    "premium": true,
+    "desc": "Startup Founder structure for Entrepreneur / Startup with a unique layout, spacing and section style.",
+    "number": 33
+  },
+  {
+    "id": "student",
+    "name": "Graduate Starter",
+    "career": "Student / Fresh Graduate",
+    "layout": "minimal",
+    "accent": "#2563eb",
+    "premium": false,
+    "desc": "Graduate Starter structure for Student / Fresh Graduate with a unique layout, spacing and section style.",
+    "number": 34
+  },
+  {
+    "id": "intern",
+    "name": "Internship Basic",
+    "career": "Internship / Attachment",
+    "layout": "classic",
+    "accent": "#0891b2",
+    "premium": false,
+    "desc": "Internship Basic structure for Internship / Attachment with a unique layout, spacing and section style.",
+    "number": 35
+  },
+  {
+    "id": "scientist",
+    "name": "Science Lab",
+    "career": "Science / Laboratory",
+    "layout": "health",
+    "accent": "#0d9488",
+    "premium": false,
+    "desc": "Science Lab structure for Science / Laboratory with a unique layout, spacing and section style.",
+    "number": 36
+  },
+  {
+    "id": "agriculture",
+    "name": "Agriculture Field",
+    "career": "Agriculture / Extension",
+    "layout": "impact",
+    "accent": "#65a30d",
+    "premium": false,
+    "desc": "Agriculture Field structure for Agriculture / Extension with a unique layout, spacing and section style.",
+    "number": 37
+  },
+  {
+    "id": "journalist",
+    "name": "Journalist Media",
+    "career": "Journalism / Communication",
+    "layout": "portfolio",
+    "accent": "#dc2626",
+    "premium": false,
+    "desc": "Journalist Media structure for Journalism / Communication with a unique layout, spacing and section style.",
+    "number": 38
+  },
+  {
+    "id": "social-worker",
+    "name": "Social Worker",
+    "career": "Social Work / Community",
+    "layout": "side",
+    "accent": "#be123c",
+    "premium": false,
+    "desc": "Social Worker structure for Social Work / Community with a unique layout, spacing and section style.",
+    "number": 39
+  },
+  {
+    "id": "developer-pro",
+    "name": "Developer Pro",
+    "career": "Full Stack Developer",
+    "layout": "tech",
+    "accent": "#4f46e5",
+    "premium": true,
+    "desc": "Developer Pro structure for Full Stack Developer with a unique layout, spacing and section style.",
+    "number": 40
+  },
+  {
+    "id": "uiux",
+    "name": "UI/UX Designer",
+    "career": "UI/UX / Product Design",
+    "layout": "creative",
+    "accent": "#9333ea",
+    "premium": true,
+    "desc": "UI/UX Designer structure for UI/UX / Product Design with a unique layout, spacing and section style.",
+    "number": 41
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineer",
+    "career": "Civil / Structural",
+    "layout": "blueprint",
+    "accent": "#0f766e",
+    "premium": false,
+    "desc": "Civil Engineer structure for Civil / Structural with a unique layout, spacing and section style.",
+    "number": 42
+  },
+  {
+    "id": "electrical",
+    "name": "Electrical Engineer",
+    "career": "Electrical / Telecom",
+    "layout": "blueprint",
+    "accent": "#f59e0b",
+    "premium": false,
+    "desc": "Electrical Engineer structure for Electrical / Telecom with a unique layout, spacing and section style.",
+    "number": 43
+  },
+  {
+    "id": "mechanical",
+    "name": "Mechanical Engineer",
+    "career": "Mechanical / Workshop",
+    "layout": "timeline",
+    "accent": "#6b7280",
+    "premium": false,
+    "desc": "Mechanical Engineer structure for Mechanical / Workshop with a unique layout, spacing and section style.",
+    "number": 44
+  },
+  {
+    "id": "pilot",
+    "name": "Aviation Profile",
+    "career": "Aviation / Airline",
+    "layout": "modern",
+    "accent": "#0284c7",
+    "premium": true,
+    "desc": "Aviation Profile structure for Aviation / Airline with a unique layout, spacing and section style.",
+    "number": 45
+  },
+  {
+    "id": "chef",
+    "name": "Chef Culinary",
+    "career": "Chef / Food Service",
+    "layout": "photo-left",
+    "accent": "#b45309",
+    "premium": false,
+    "desc": "Chef Culinary structure for Chef / Food Service with a unique layout, spacing and section style.",
+    "number": 46
+  },
+  {
+    "id": "security",
+    "name": "Security Officer",
+    "career": "Security / Safety",
+    "layout": "dark",
+    "accent": "#22c55e",
+    "premium": false,
+    "desc": "Security Officer structure for Security / Safety with a unique layout, spacing and section style.",
+    "number": 47
+  },
+  {
+    "id": "realestate",
+    "name": "Real Estate Agent",
+    "career": "Real Estate / Property",
+    "layout": "impact",
+    "accent": "#0d9488",
+    "premium": false,
+    "desc": "Real Estate Agent structure for Real Estate / Property with a unique layout, spacing and section style.",
+    "number": 48
+  },
+  {
+    "id": "consultant",
+    "name": "Consultant Profile",
+    "career": "Consulting / Advisory",
+    "layout": "executive",
+    "accent": "#8b5cf6",
+    "premium": true,
+    "desc": "Consultant Profile structure for Consulting / Advisory with a unique layout, spacing and section style.",
+    "number": 49
+  },
+  {
+    "id": "international",
+    "name": "International CV",
+    "career": "Global / Multilingual",
+    "layout": "modern",
+    "accent": "#1d4ed8",
+    "premium": false,
+    "desc": "International CV structure for Global / Multilingual with a unique layout, spacing and section style.",
+    "number": 50
+  }
+]
